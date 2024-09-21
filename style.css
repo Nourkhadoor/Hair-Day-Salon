@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(253, 226, 208);
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header .Logo {
+    text-align: center;
+}
+
+header .Logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color:#bfa297;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.welcome {
+    text-align: center;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.promotion {
+    background-color: #ffc107;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.promotion h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.promotion p {
+    font-size: 1.2rem;
+}
+
+main article {
+    flex: 1;
+    margin-bottom: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 18px;
+}
+
+footer {
+    display: block;
+    column-count: 2;
+    column-gap: 80%;
+    margin-top: 20px;
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+}
+
+footer div {
+    flex: 1;
+}
